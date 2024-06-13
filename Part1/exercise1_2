@@ -1,0 +1,21 @@
+sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS                     PORTS     NAMES
+4b80162d787c   nginx     "/docker-entrypoint.…"   6 hours ago   Exited (0) 6 hours ago               elastic_euclid
+7468087015f2   nginx     "/docker-entrypoint.…"   6 hours ago   Exited (0) 2 minutes ago             distracted_carver
+911f65d75d9f   nginx     "/docker-entrypoint.…"   7 hours ago   Exited (0) 6 hours ago               beautiful_euclid
+6c8d20f9dd00   nginx     "/docker-entrypoint.…"   7 hours ago   Exited (0) 7 hours ago               interesting_lamarr
+
+sudo docker image ls
+REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+nginx         latest    4f67c83422ec   2 weeks ago     188MB
+hello-world   latest    d2c94e258dcb   13 months ago   13.3kB
+
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:266b191e926f65542fa8daaec01a192c4d292bff79426f47300a046e1bc576fd
+Deleted: sha256:d2c94e258dcb3c5ac2798d32e1249e42ef01cba4841c2234249495f87264ac5a
+Deleted: sha256:ac28800ec8bb38d5c35b49d45a6ac4777544941199075dff8c4eb63e093aa81e
+
+sudo docker image ls
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+nginx        latest    4f67c83422ec   2 weeks ago   188MB
+
