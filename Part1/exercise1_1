@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS                   PORTS     NAMES
+4b80162d787c   nginx     "/docker-entrypoint.…"   6 hours ago   Exited (0) 6 hours ago             elastic_euclid
+7468087015f2   nginx     "/docker-entrypoint.…"   6 hours ago   Up 6 hours               80/tcp    distracted_carver
+911f65d75d9f   nginx     "/docker-entrypoint.…"   6 hours ago   Exited (0) 6 hours ago             beautiful_euclid
