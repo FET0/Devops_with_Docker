@@ -1,0 +1,5 @@
+docker run -it --name ubuntu_curl ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+docker exec -it ubuntu_curl apt-get update
+docker exec -it ubuntu_curl apt-get install -y curl
+
